@@ -1,22 +1,50 @@
 .bg-grad{
-    background: rgb(0,14,19);
-    background: linear-gradient(0deg, rgba(0,14,19,1) 0%, rgba(0,18,25,1) 30%, rgba(77,8,11,1) 97%);
-    /* overflow: hidden; */
+    background: rgb(0,18,25);
+background: linear-gradient(0deg, rgba(0,18,25,1) 0%, rgba(0,18,25,1) 54%, rgba(77,8,11,1) 100%);
 }
 
-/*Background color moztaza*/
-.bg-mozt{
-    background-color: #ee9b00;
-}
+
 /* Borde color moztaza */
 .border-mozt{
     border-color: #ee9b00;
+}
+/* Borde color bordo */
+.border-bordo{
+    border-color: #4d080b;
 }
 /* Color moztaza */
 .color-mozt{
     color: #ee9b00;
 }
-
-.text-darkBlue{
+/* Color azul oscuro */
+.color-darkBlue{
     color: #001219;
 } 
+/*Background color azul oscuro*/
+.bg-darkBlue{
+    background-color: #001219;
+}
+/*Background color bordo*/
+.bg-bordo{
+    background-color: #4d080b;
+}
+/*Background color bordo*/
+.bg-mozt{
+    background-color: #ee9b00;
+}
+/*Estilos de tarjetas de proyectos*/
+.opacity-text{
+    opacity: 0;
+    transition: 0.7s;
+}
+.opacity-img{
+    opacity: 0.75;
+    transition: 0.5s;
+}
+/*Hover del boton*/
+.card:hover .opacity-img{
+        opacity: 0.1;
+}
+.card:hover .opacity-text{
+    opacity: 1;
+}
