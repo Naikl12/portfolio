@@ -3,7 +3,6 @@
 background: linear-gradient(0deg, rgba(0,18,25,1) 0%, rgba(0,18,25,1) 54%, rgba(77,8,11,1) 100%);
 }
 
-
 /* Borde color moztaza */
 .border-mozt{
     border-color: #ee9b00;
@@ -41,9 +40,8 @@ background: linear-gradient(0deg, rgba(0,18,25,1) 0%, rgba(0,18,25,1) 54%, rgba(
     opacity: 0.75;
     transition: 0.5s;
 }
-/*Hover del boton*/
 .card:hover .opacity-img{
-        opacity: 0.1;
+    opacity: 0.1;
 }
 .card:hover .opacity-text{
     opacity: 1;
