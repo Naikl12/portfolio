@@ -41,7 +41,7 @@ background: linear-gradient(0deg, rgba(0,18,25,1) 0%, rgba(0,18,25,1) 54%, rgba(
     transition: 0.5s;
 }
 .card:hover .opacity-img{
-    opacity: 0.1;
+    opacity: 0;
 }
 .card:hover .opacity-text{
     opacity: 1;
