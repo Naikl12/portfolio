@@ -46,3 +46,12 @@ background: linear-gradient(0deg, rgba(0,18,25,1) 0%, rgba(0,18,25,1) 54%, rgba(
 .card:hover .opacity-text{
     opacity: 1;
 }
+
+/*Margen top*/
+.mt-6{
+    margin-top: 4rem;
+}
+/*Padding top*/
+.pt-6{
+    padding-top: 4rem;
+}

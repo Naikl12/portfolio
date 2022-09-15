@@ -15,9 +15,9 @@
 </head>
 
 <body class=" bg-darkBlue">
-    <header class="bg-grad">
+    <header class="bg-grad  mt-6 ">
         <!-- Navbar -->
-        <nav data-aos="fade-down" class="navbar navbar-expand-lg px-4 navbar-dark container">
+        <nav class=" navbar navbar-expand-lg px-4 navbar-dark fixed-top bg-bordo">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                         fill="currentColor" class="bi bi-code-slash color-mozt" viewBox="0 0 16 16">
@@ -31,13 +31,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav fw-semibold fs-5">
                         <li class="nav-item ">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Tecnologías</a>
+                            <a class="nav-link active" href="#tecnologias">Tecnologías</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link active" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link disabled">Contacto</a>
@@ -47,7 +47,7 @@
             </div>
         </nav>
         <!-- Hero -->
-        <div class="container px-4 py-5 text-white">
+        <section id="inicio" class="container px-4 py-5 text-white">
             <div class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-4 col-xl-6 ">
                     <img src="./img/mifoto.jpeg" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Mi foto"
@@ -59,19 +59,17 @@
                         Salta. Complementariamente estudio desarrollo web con orientación a Front End.
                     </p>
                     <div class="d-grid gap-3 d-md-flex justify-content-md-start">
-                        <button type="button"
-                            class="btn btn-lg px-4 me-md-2 btn-warning bg-mozt color-darkBlue">Contáctame</button>
-                        <button type="button"
-                            class="btn btn-outline-warning border-mozt color-mozt btn-lg px-4 ">Proyectos</button>
+                        <a href="#" class="btn btn-lg px-4 me-md-2 btn-warning bg-mozt color-darkBlue">Contáctame</a>
+                        <a href="#proyectos" class="btn btn-outline-warning border-mozt color-mozt btn-lg px-4">Proyectos</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </header>
 
     <main class="bg-darkBlue text-white">
         <!-- Tecnologías -->
-        <section class="container px-4 py-5">
+        <section id="tecnologias"  class="container px-4 pt-6">
             <h2 class="pb-2 border-bottom fw-bold">Tecnologías</h2>
 
             <div  class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5" >
@@ -253,7 +251,7 @@
             </div>
         </section>
         <!-- Proyectos -->
-        <section class="album py-5">
+        <section id="proyectos" class="album pt-6">
 
             <div class="container ">
                 <h2 class="pb-2 border-bottom fw-bold">Proyectos</h2>
@@ -320,8 +318,7 @@
 
     </main>
 
-    <footer
-        class="container mt-auto d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top text-white">
+    <footer class="container mt-auto d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top text-white bg-darkBlue">
         <div class="col-md-4 d-flex align-items-center">
             <span class="mb-3 mb-md-0 text-white">© 2022 Saika</span>
         </div>
